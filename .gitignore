@@ -19,6 +19,7 @@ fp-info-cache
 *.log
 *.out
 *.synctex.gz
+*.tex
 *.toc
 *.blg
 *.bbl
