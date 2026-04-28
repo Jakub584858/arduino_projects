@@ -1,0 +1,33 @@
+# --- Arduino IDE ---
+# Ignore internal build folders and backups
+_minted/
+arduino_lcd_backups/
+build/
+
+# --- KiCAD ---
+# Ignore local project settings and backups, keep .kicad_pcb and .kicad_pro
+*.kicad_prl
+*-backups/
+fp-info-cache
+*.lck
+
+# --- Documentation (TeX Studio) ---
+# Keep .pdf files as they are the final documentation
+# Keep .tex files if you want the source code saved
+# Ignore all auxiliary/temporary build files
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.blg
+*.bbl
+
+# --- LibreOffice Draw ---
+# Ignore lock files and temporary fragments
+.~lock.*
+*.odg#
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
